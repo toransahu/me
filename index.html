@@ -3,7 +3,7 @@
   <head>
     <title>Toran Sahu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -39,9 +39,30 @@
         margin-bottom: 0.5em;
         text-decoration: underline;
       }
+      ul {
+        margin-left: -20px;
+        margin-top: 0.5em;
+      }
       li {
         line-height: 15px;
         color: grey;
+      }
+      .ul-tri {
+        margin-left: -20px;
+        margin-top: 0.5em;
+        list-style: none;
+      }
+      .li-tri:before {
+        content: "";
+        border-color: transparent #000000;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        display: block;
+        height: 0;
+        width: 0;
+        left: -1em;
+        top: 0.9em;
+        position: relative;
       }
       p {
         line-height: 15px;
@@ -53,10 +74,6 @@
       body {
         font-family: "Roboto", sans-serif;
         font-size: 75%;
-      }
-      ul {
-        margin-left: -20px;
-        margin-top: 0.5em;
       }
       a {
         color: grey;
@@ -99,8 +116,45 @@
 				-->
         <!-- ----------------------------EXPERIENCE---------------------------- -->
         <h3>EXPERIENCE</h3>
+        <h4>Talentica Softwares, Pune — <i>Senior Software Engineer</i></h4>
+        <p>OCT 2018 – PRESENT</p>
+        <ul class="ul-tri">
+            <li class="li-tri">Contributed to <a href="https://www.mist.com">https://www.mist.com</a> on:</li>
+        </ul>
+        <ul>
+          <li>
+            Integration of Juniper Switches & Gateways (EX, SRX) into the Mist
+            cloud
+          </li>
+          <li>
+            Creating a lag-tolerant threshold-based stream emission mechanism
+            machine
+          </li>
+          <li>
+            Development of a cloud-based OpenConfig (Vendor Neutral NOI gRPC) in
+            collaboration with <a href="https://google.com">Google</a>
+          </li>
+          <li>Performance & stability improvement of WebSocket service</li>
+          <li>
+            Continuous improvement of and features integration to CNA service
+          </li>
+          <li>
+            Development and maintenance of REST APIs, Apache Storm based
+            topologies responsible for many core features
+          </li>
+          <li>Python2 to Python3 migration of CNA & WebSocket service</li>
+          <li>Improving the manufacturing process of Mist APs</li>
+        </ul>
+        <ul class="ul-tri">
+            <li class="li-tri">Contributed to <a href="https://www.talentica.com">https://www.talentica.com</a> on:</li>
+        </ul>
+        <ul>
+          <li>Designing OAuth2 Provider and OAuth2 Resource Server</li>
+          <li>Google/FB OAuth2 integrations</li>
+        </ul>
+
         <h4>Ethereal Machines, Bangalore — <i>Senior Software Engineer</i></h4>
-        <p>MAR 2018 – PRESENT</p>
+        <p>MAR 2018 – OCT 2018</p>
         <ul>
           <li>
             Enriched overall user experience by implementing smart features in
@@ -362,6 +416,7 @@
         <h3><u>SKILLS</u></h3>
         <h4>Programming Languages</h4>
         <ul>
+          <li>Golang</li>
           <li>Python</li>
           <li>Java</li>
           <li>C/C+</li>
@@ -371,6 +426,9 @@
 
         <h4>Database Technologies</h4>
         <ul>
+          <li>PostgreSQL</li>
+          <li>ElasticSearch</li>
+          <li>Redis</li>
           <li>Oracle – PL/SQL</li>
           <li>MS Server – T-SQL</li>
           <li>MySQL</li>
@@ -379,19 +437,18 @@
 
         <h4>Web Technologies</h4>
         <ul>
+          <li>RPC</li>
+          <li>WebSocket</li>
+          <li>Webhooks</li>
           <li>REST APIs</li>
           <li>MVC</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
         </ul>
         <h4>Frameworks</h4>
         <ul>
-          <li>Django</li>
+          <li>gRPC</li>
+          <li>Django/DRF</li>
           <li>Flask</li>
-          <li>Pytest</li>
-          <li>Pandas</li>
-          <li>Scikit-Learn</li>
+          <li>Apache Storm</li>
           <li>Multichain</li>
         </ul>
         <h4>Version Control System</h4>
@@ -400,13 +457,14 @@
         </ul>
         <h4>Cloud & DevOps</h4>
         <ul>
+          <li>Microservices</li>
           <li>AWS</li>
           <li>Heroku</li>
-          <li>Continuous Integration (CI)</li>
+          <li>Continuous Integration/Deployment (CI/CD)</li>
         </ul>
         <h4>Operating System</h4>
         <ul>
-          <li>Linux (Ubuntu/Mint)</li>
+          <li>Linux (Debian)</li>
           <li>Raspbian (Raspberry Pi)</li>
           <li>Windows</li>
         </ul>
@@ -420,6 +478,8 @@
         </ul>
         <h4>Other</h4>
         <ul>
+          <li>Stream Processing</li>
+          <li>OpenConfig</li>
           <li>3D Printer</li>
           <li>Blockchain</li>
           <li>Data Mining</li>
@@ -428,6 +488,16 @@
         <!-- ----------------------------AWARDS---------------------------- -->
 
         <h3><u>AWARDS</u></h3>
+        <h4>SPOT Award – <i>Talentica</i></h4>
+        <p>NOV 2019</p>
+        <p>
+        A certification awarded in appreciation of exhibiting Talentica core values.
+        </p>
+        <h4>SPOT Award – <i>Talentica</i></h4>
+        <p>SEP 2019</p>
+        <p>
+        A certification awarded in appreciation of exhibiting Talentica core values.
+        </p>        
         <h4>Insta Award – <i>Infosys</i></h4>
         <p>MAR 2017</p>
         <p>
